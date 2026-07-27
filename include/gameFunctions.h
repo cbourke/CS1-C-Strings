@@ -19,14 +19,3 @@ checkGuess();
  * prints relevant data
  */
 void startGame(char *wordToGuess);
-
-/**
- * Clears the unix terminal of previous input
- */
-void clearScreen();
-
-/**
- * Prints part of the horse based on the ratio between
- * the two numbers.
- */
-void drawHorse(int guessedSoFar, int allowedGuesses);
