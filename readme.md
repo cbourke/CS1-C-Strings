@@ -172,8 +172,8 @@ Clone the code for this lab from GitHub using the following URL:
     different but the output should correctly display the game being
     played.
 
-2.  Even if you worked with a partner, you *both* should turn in all
-    files.
+2.  If you are working as a pair, be sure to follow the course
+    instructions so you both get credit.
 
 # Advanced Activity (Optional)
 
