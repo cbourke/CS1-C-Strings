@@ -164,7 +164,8 @@ Clone the code for this lab from GitHub using the following URL:
       `make game_function_tests` and `./game_function_tests`; fix
       any issues before proceeding
 
-    - Run the game a few times to verify that it plays correctly.
+    - Build and run the game using `make` and `./horse`
+      a few times to verify that it plays correctly
 
 ##Handin/Grader Instructions
 
