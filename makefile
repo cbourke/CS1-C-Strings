@@ -14,9 +14,12 @@ main.o: src/main.c
 	@mkdir -p obj
 	$(CC) $(CCFLAGS) -c src/main.c -o obj/$@
 
-gameFunctions.o: src/game_functions.c include/game_functions.h
+game_functions.o: src/game_functions.c include/game_functions.h
 	@mkdir -p obj
 	$(CC) $(CCFLAGS) -c src/game_functions.c -o obj/$@ -lm
+
+game_function_tests: game_functions.o test/game_function_tests.c
+	$(CC) $(CCFLAGS) obj/game_functions.o test/game_function_tests.c -o game_function_tests -lm -lcmocka
 
 clean:
 	rm -rf obj/*o
