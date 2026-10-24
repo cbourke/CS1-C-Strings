@@ -7,7 +7,7 @@
 #include <stdio.h>
 #include <time.h>
 
-#include "gameFunctions.h"
+#include "game_functions.h"
 
 int main(int argc, char **argv) {
   char guessWords[50][25];

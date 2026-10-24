@@ -89,7 +89,7 @@ Clone the code for this lab from GitHub using the following URL:
 ## Implementing String Manipulation Functions
 
 1.  Navigate to the `src` directory and open
-    `gameFunctions.c` in the editor of your choice.
+    `game_functions.c` in the editor of your choice.
 
 2.  There are several functions already fully implemented in this file.
     Your task for this lab is to implement the following four functions:
@@ -153,18 +153,18 @@ Clone the code for this lab from GitHub using the following URL:
             library.
 
 3.  Navigate to the `include` directory and open
-    `gameFunctions.h` in the editor of your choice
+    `game_functions.h` in the editor of your choice
 
 4.  Complete the function prototypes that you implemented in
-    `gameFunctions.c` here.
+    `game_functions.c` here.
 
 ##Handin/Grader Instructions
 
 1.  Hand in your completed files:
 
-    -   `gameFunctions.c`
+    -   `game_functions.c`
 
-    -   `gameFunctions.h`
+    -   `game_functions.h`
 
     and verify your program compiles and all tests pass.
     For this lab the grader will simulate playing several games (some
@@ -182,4 +182,4 @@ words a user can enter in the `dictionary.txt` file. Alter the
 program so that it can accept any number of words and words of any
 length from `dictionary.txt` (hint: you'll need to dynamically
 allocate the memory for the array in `main.c`, among other
-changes in `gameFunctions.h` and `gameFunctions.c`).
+changes in `game_functions.h` and `game_functions.c`).

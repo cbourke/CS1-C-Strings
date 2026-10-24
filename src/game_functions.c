@@ -2,7 +2,7 @@
 #include <math.h>
 #include <string.h>
 
-#include "gameFunctions.h"
+#include "game_functions.h"
 
 initializeBlankString() {}
 
