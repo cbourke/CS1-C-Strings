@@ -3,7 +3,7 @@
 #
 
 CC = gcc
-CCFLAGS = -Iinclude -std=c99
+CCFLAGS = -Iinclude
 
 all: horse
 
