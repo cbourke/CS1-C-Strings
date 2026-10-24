@@ -158,6 +158,14 @@ Clone the code for this lab from GitHub using the following URL:
 4.  Complete the function prototypes that you implemented in
     `game_functions.c` here.
 
+5.  Test your solution.
+
+    - Build and run the `cmocka` test suite using
+      `make game_function_tests` and `./game_function_tests`; fix
+      any issues before proceeding
+
+    - Run the game a few times to verify that it plays correctly.
+
 ##Handin/Grader Instructions
 
 1.  Hand in your completed files:
